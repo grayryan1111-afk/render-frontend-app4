@@ -1,21 +1,18 @@
 {
-  "name": "clearview-app",
+  "name": "clearview-frontend",
   "version": "1.0.0",
-  "main": "App.js",
+  "private": true,
   "scripts": {
-    "start": "expo start",
-    "android": "expo run:android",
-    "ios": "expo run:ios"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "dependencies": {
-    "expo": "^51.0.0",
-    "expo-status-bar": "~1.11.1",
-    "react": "18.2.0",
-    "react-native": "0.74.0",
-    "axios": "^1.6.0",
-    "@react-navigation/native": "^6.1.6",
-    "@react-navigation/bottom-tabs": "^6.5.12",
-    "react-native-screens": "~3.29.0",
-    "react-native-safe-area-context": "4.9.0"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0",
+    "@vitejs/plugin-react": "^4.0.0"
   }
 }
